@@ -234,9 +234,10 @@ body{
   }
   h1{
     font-size: 1.6rem;
+  
   }
    header{
-   margin: 16px 0;
+   margin:8px 0;
   }
   input,button{
     font-size: 1.3rem;
@@ -247,8 +248,14 @@ body{
     gap: 1rem;
   }
   .result{
-    padding: 1.5rem;
+    padding: 1rem;
     justify-content: unset;
+  }
+  .result .flex{
+  margin-bottom: 1.5rem;
+  }
+   .result .flex:first-child{
+  margin-bottom: 1.5rem;
   }
   .number{
     font-size: 1.875rem;
