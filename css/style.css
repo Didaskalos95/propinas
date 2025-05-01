@@ -224,7 +224,7 @@ button:hover{
 }
 @media (max-width:  420px){ 
 body{
-  display: block;
+  
 }     
   main{
     margin: 0;
