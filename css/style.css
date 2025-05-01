@@ -228,7 +228,7 @@ body{
 }     
   main{
     margin: 0;
-    padding: 1.1rem;
+    padding: 1rem;
     border-bottom-left-radius: unset;
     border-bottom-right-radius: unset;
   }
@@ -236,14 +236,15 @@ body{
     font-size: 1.6rem;
   }
    header{
-   margin: 30px 0;
+   margin: 16px 0;
   }
-  .tip_percentages{
-    grid-template-columns: repeat(2, 1fr);
+  input,button{
+    font-size: 1.3rem;
   }
+
   form{
     padding: 0.5rem;
-    gap: 1.2rem;
+    gap: 1rem;
   }
   .result{
     padding: 1.5rem;
@@ -252,4 +253,8 @@ body{
   .number{
     font-size: 1.875rem;
   }
+  .tip_percentages{
+
+  gap: 0.875rem;
+}
 }
