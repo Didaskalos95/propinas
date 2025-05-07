@@ -265,3 +265,9 @@ body{
   gap: 0.5rem;
 }
 }
+
+@media (max-height:  621px){
+  body{
+    display: block;
+  }
+}
